@@ -1,1 +1,2 @@
 # JM-Animal-Feeds
+JM Animal Feeds is a growing animal feed production company based in Dar es Salaam, Tanzania, with a central production facility and multiple retail outlets nationwide. The company requires a comprehensive Enterprise Resource Planning (ERP) system to streamline operations, Production Management, enhance inventory management, Point Of Sale, ensure product traceability, and provide real-time visibility across all business functions.
