@@ -1,0 +1,79 @@
+
+/**
+ * File: assets/css/login.css
+ * Path: /feedsjm/assets/css/login.css
+ * Description: Login page specific styles
+ */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.login-container {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-right: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #667eea;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.alert {
+    border-radius: 8px;
+    border: none;
+}
+
+#togglePassword {
+    border-left: none;
+    background-color: #fff;
+}
+
+#togglePassword:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 2rem;
+    }
+}
